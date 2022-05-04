@@ -1,125 +1,108 @@
 <!DOCTYPE html>
-<html lang="es"
->
-   
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
 
     <title>Bordes_Colores_Imagenes</title>
 
-    
-    <style >
-        /*el estarisco se utiliza pra pomer un formato genericol*/
-        * {
-            padding: 5px;
-        }
 
+    <style>
         body {
-            background-image:url(fondo.jpg) ;
+            background-image: url(fondo.jpg);
+            background-color: #ffffff;
+            background-position: center;
             background-repeat: no-repeat;
-            overflow:scroll;
-            background-size: 150%;
-        }
+            background-size: 40%;
+            margin-bottom: -10%;
+            margin-top: -30%;
 
-
-        h1 {
-            
-        text-align: center;
-        font: 200% Arial black ;
-        text-decoration:underline;
-        
-       
-      
-        }
-
-     
-
-        #caja1 {
-            width: 50%;
-            height: 50%;
-            display:block;
-            margin:auto;
 
         }
 
-        img {
-            width: 50%;
-            height: 50%;
-            display:block;
-            margin:auto;
-    
-         
+        body:active {
+            background-image: url(Norway_Lofoten_Mountains_Houses_Marinas_Evening_.jpg);
+            background-color: #ffffff;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 40%;
+            margin-bottom: -10%;
+            margin-top: -30%;
+
+
         }
 
-        
+        div {
 
-     
 
-        p{
-             text-justify: auto;
-            padding-left: 100px;
-            padding-right: 100px;
-            margin: 100px;
+            width: 800px;
+            margin-left: 20%;
+            margin-top: 60%;
             background-color: rgb(206, 223, 61);
-            font: 90%  rgb(34, 33, 33);
-            font:Arial;
-            column-count:2 ;
-            column-gap:75px;
+
         }
 
-        p:hover{
-            background-color: rgb(253, 0, 0);
+        div:hover {
+
+            -moz-column-count: 3;
+            -webkit-column-count: 3;
+            column-count: 3;
+            width: 800px;
+            margin-left: 20%;
+            margin-top: 60%;
+            background-color: rgb(206, 223, 61);
+
         }
 
-        div::first-letter {
-            font-size: 300%;
-            font-weight: bold;
-            font-style: italic;
-            color: black
+
+
+        p {
+            text-justify: auto;
+            background-color: rgb(206, 223, 61);
+            font: rgb(34, 33, 33);
         }
+
+        p:hover {
+            text-justify: auto;
+            background-color: rgb(206, 223, 61);
+            font: rgb(34, 33, 33);
+            font: Arial;
+            height: 100%;
+            padding: 10%;
+        }
+
+      
+
         div:active:first-letter {
-            font-size: 500%;
+            font-size: 200%;
             font-weight: bold;
             font-style: italic;
-            color: rgb(248, 224, 7)
+            color:black
         }
-
-
-
     </style>
 </head>
 
 <body>
 
 
-    <h1> Islas Lofoten </h1>
 
-    <div id="caja1"><img src="Norway_Lofoten_Mountains_Houses_Marinas_Evening_.jpg" alt="Norway_Lofoten_Mountains_Houses_Marinas_Evening_">
-    </div>
-<div>
-    <p>Su superficie es de 1227 km², y su población suma un total de 24 500 personas. 
-        Entre tierra firme y el archipiélago se halla Vestfjord, 
-        y al norte, las islas Vesterålen. Las principales ciudades de Lofoten son Leknes, 
-        en Vestvågøy, y Svolvær en la isla de Vågan.
 
-        Las islas Lofoten se caracterizan por sus montañas y picos, isletas 
-        al abrigo del las aguas abiertas del océano, playas y grandes 
-        áreas vírgenes. Al igual que casi toda la costa noruega, su 
-        geografía se encuentra profundamente recortada por fiordos.
-        
-        La mayor montaña de Lofoten es Higravstinden (1161 m) en Austvågøy; 
-        el parque nacional de Møysalen3​ al noreste de Lofoten tiene montañas
-         que alcanzan los 1262 m. El sistema de mareas Moskstraumen o sistema de
-          mareas de Maelstrom se encuentra al este del archipiélago. 
 
-        El mar es rico en vida, y el mayor arrecife de coral en aguas profundas 
-          (arrecife de Røst, de 40 km de longitud) se encuentra al oeste de 
-          Røst. Hay una alta densidad de población de pigargos y cormoranes, 
-          y millones de otras aves marinas, entre ellos los coloristas frailecillos atlánticos. 
-          Son comunes las nutrias, y hay alces en Austvågøy.</p>
-
-</div>
 
 </body>
+<div>
+    <p> Población suma un total de 24 500 personas.
+        Entre tierra firme y el archipiélago se halla Vestfjord,
+        y al norte, las islas Vesterålen. Las principales ciudades de Lofoten son Leknes,
+        en Vestvågøy, y Svolvær en la isla de Vågan.</p>
+    <p>Las islas Lofoten se caracterizan por sus montañas y picos, isletas
+        al abrigo del las aguas abiertas del océano, playas y grandes
+        áreas vírgenes. Al igual que casi toda la costa noruega, su</p>
+    geografía se encuentra profundamente recortada por fiordos.
+    <p>La mayor montaña de Lofoten es Higravstinden (1161 m) en Austvågøy;
+        el parque nacional de Møysalen3​ al noreste de Lofoten tiene montañas
+        que alcanzan los 1262 m.</p>
+
+</div>
 
 </html>
