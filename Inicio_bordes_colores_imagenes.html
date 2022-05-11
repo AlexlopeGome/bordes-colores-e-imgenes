@@ -8,9 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bordes_Colores_Imagenes</title>
     <style>
+        *{
+            box-sizing: border-box;
+        }
         #img {
-            height: 400px;
+            height: 60vh;
             width: 50%;
+            padding: 10%;
             margin-left: 25%;
             background-image: url(fondo.jpg);
             background-position: center;
@@ -22,7 +26,7 @@
         #img:hover {
             height: 30vh;
             width: 30vw;
-            padding: 20px;
+            padding: 10%;
             margin-left: 33%;
             background-image: url(la-riqueza.jpg);
             background-position: center;
@@ -33,7 +37,7 @@
 
        #texto {
 
-            width: 800px;
+            width: 60vw;
             margin-left: 20%;
             text-align: center;
             background-color: rgb(206, 223, 61);
@@ -44,9 +48,19 @@
         #texto:hover {
             -moz-column-count: 3;
             -webkit-column-count: 3;
+            column-count: 2;
+            text-align: center;
+            width: 60vw;
+            margin-left: 20%;
+
+        }
+
+        #texto:active {
+            -moz-column-count: 3;
+            -webkit-column-count: 3;
             column-count: 3;
             text-align: center;
-            width: 800px;
+            width: 60vw;
             margin-left: 20%;
 
         }
